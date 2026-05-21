@@ -1,16 +1,99 @@
-# React + Vite
+# Todo App - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação de lista de tarefas desenvolvida em React como projeto de prática para aprimorar conceitos de front-end e gerenciamento de estado.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
 
-## React Compiler
+![Preview do projeto](./preview_to_do_app.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Adicionar tarefas
+- Marcar tarefas como concluídas
+- Remover tarefas
+- Filtrar tarefas:
+  - Todas
+  - Concluídas
+  - Pendentes
+- Contador de tarefas
+- Salvamento automático no Local Storage
+- Layout responsivo
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- React
+- JavaScript
+- CSS3
+- Vite
+
+---
+
+## 📚 Conceitos praticados
+
+Este projeto foi desenvolvido com foco em prática de conceitos de nível júnior, incluindo:
+
+- Componentização
+- Props
+- useState
+- useEffect
+- Manipulação de eventos
+- Renderização de listas
+- Manipulação de arrays com map e filter
+- Persistência de dados com Local Storage
+- Responsividade com CSS
+
+---
+
+## 📱 Responsividade
+
+Interface adaptada para:
+
+- Mobile
+- Tablet
+- Desktop
+
+---
+
+## ⚙️ Como executar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/SEU-USUARIO/To_do_app.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd To_do_app
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔗 Deploy
+
+https://SEU-LINK-VERCEL.vercel.app
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por Patrick Corrêa.

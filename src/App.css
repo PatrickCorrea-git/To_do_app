@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(135deg, #111111, #1b1b1b, #222222);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px 15px;
+  color: #f5f5f5;
+}
+
+/* Container principal */
+
+.container {
+  background: #1f1f1f;
+  padding: 30px;
+  border-radius: 18px;
+  width: 100%;
+  max-width: 430px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  max-height: 90vh;
+  overflow-y: auto;
+  border: 1px solid #2d2d2d;
+}
+
+/* Título */
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 22px;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* Input e botão */
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #3b3b3b;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14px;
+  background: #2a2a2a;
+  color: #fff;
+  transition: 0.2s ease;
+}
+
+.input-group input::placeholder {
+  color: #9e9e9e;
+}
+
+.input-group input:focus {
+  border-color: #00c853;
+  background: #303030;
+}
+
+.input-group button {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #00c853;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.input-group button:hover {
+  background: #00b248;
+  transform: translateY(-2px);
+}
+
+/* Filtros */
+
+.filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.filters button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #2d2d2d;
+  color: #f5f5f5;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s ease;
+  border: 1px solid #3a3a3a;
+}
+
+.filters button:hover {
+  background: #3a3a3a;
+  transform: translateY(-2px);
+}
+
+/* Contador */
+
+.task-count {
+  font-size: 13px;
+  color: #bdbdbd;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+/* Lista */
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2a2a2a;
+  padding: 12px 14px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  transition: background 0.2s ease, transform 0.2s ease;
+  border: 1px solid #353535;
+}
+
+li:hover {
+  background: #323232;
+  transform: translateY(-2px);
+}
+
+/* Texto tarefa */
+
+li span {
+  cursor: pointer;
+  word-break: break-word;
+  max-width: 75%;
+  font-size: 14px;
+}
+
+/* Tarefa concluída */
+
+.completed {
+  text-decoration: line-through;
+  color: #8bc34a;
+}
+
+/* Botão remover */
+
+li button {
+  border: none;
+  background: #d32f2f;
+  color: #fff;
+  padding: 7px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.2s ease;
+}
+
+li button:hover {
+  background: #b71c1c;
+  transform: scale(1.05);
+}
+
+/* Scrollbar */
+
+.container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 10px;
+}
+
+/* SMARTPHONE */
+
+@media (max-width: 480px) {
+  body {
+    padding: 20px 12px;
+  }
+
+  .container {
+    padding: 22px;
+    border-radius: 14px;
+  }
+
+  .container h1 {
+    font-size: 22px;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  .input-group button {
+    width: 100%;
+  }
+
+  .filters {
+    flex-direction: column;
+  }
+
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  li span {
+    max-width: 100%;
+  }
+
+  li button {
+    align-self: flex-end;
+  }
+}
+
+/* TABLET */
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+}

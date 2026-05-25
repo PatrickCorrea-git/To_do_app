@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Todo App - React
 
 Aplicação de lista de tarefas desenvolvida em React como projeto de prática para aprimorar conceitos de front-end e gerenciamento de estado.
@@ -7,13 +6,19 @@ Aplicação de lista de tarefas desenvolvida em React como projeto de prática p
 
 ## 📸 Preview
 
-![Preview do projeto](./preview_to_do_app.png)
+<p align="center">
+  <img src="./preview_todo_app_desktop.png" width="700"/>
+</p>
+
+<p align="center">
+  <img src="./preview_todo_app_mobile.jpg" width="250"/>
+</p>
 
 ---
 
 ## 🔗 Deploy
 
-🔗 https://to-do-app-one-omega-33.vercel.app
+🔗 [Acessar projeto](https://to-do-app-one-omega-33.vercel.app)
 
 ---
 
@@ -99,4 +104,4 @@ npm run dev
 
 - Desenvolvido por Patrick Corrêa.
 
-- GitHub: https://github.com/PatrickCorrea-git
+- GitHub: [PatrickCorrea-git](https://github.com/PatrickCorrea-git)

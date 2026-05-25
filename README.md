@@ -77,7 +77,7 @@ Interface adaptada para:
 Clone o repositório:
 
 ```bash
-git clone https://github.com/PatrickCorrea-git/To_do_app.git
+git clone https://github.com/PatrickCorrea-git/To_do_app
 ```
 
 Entre na pasta do projeto:

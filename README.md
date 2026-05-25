@@ -10,6 +10,12 @@ Aplicação de lista de tarefas desenvolvida em React como projeto de prática p
 
 ---
 
+## 🔗 Deploy
+
+🔗 https://to-do-app-one-omega-33.vercel.app
+
+---
+
 ## 🚀 Funcionalidades
 
 - Adicionar tarefas
@@ -65,7 +71,7 @@ Interface adaptada para:
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/To_do_app.git
+git clone https://github.com/PatrickCorrea-git/To_do_app.git
 ```
 
 Entre na pasta do projeto:
@@ -88,12 +94,8 @@ npm run dev
 
 ---
 
-## 🔗 Deploy
-
-https://SEU-LINK-VERCEL.vercel.app
-
----
-
 ## 👨‍💻 Autor
 
-Desenvolvido por Patrick Corrêa.
+- Desenvolvido por Patrick Corrêa.
+
+- GitHub: https://github.com/PatrickCorrea-git

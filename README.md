@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Todo App - React
 
 Aplicação de lista de tarefas desenvolvida em React como projeto de prática para aprimorar conceitos de front-end e gerenciamento de estado.
